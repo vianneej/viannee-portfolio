@@ -28,7 +28,8 @@ nav.querySelectorAll("a").forEach((link) => {
 });
 
 const lifePhotos = [
-  { file: "image1.JPG", title: "Code4Change Hackathon", alt: "Viannee working with her team" },
+ { file: "image0.JPG", title: "gator gym meet with roomie", alt: "Viannee at a Gator gym meet with her roomie" },
+ { file: "image1.JPG", title: "Code4Change Hackathon", alt: "Viannee working with her team" },
   { file: "image2.jpg", title: "first football game", alt: "Viannee working on a hardware project" },
   { file: "image3.JPG", title: "late night hacking", alt: "Viannee at a professional conference" },
   { file: "image4.JPG", title: "the birth of an RC car", alt: "Viannee collaborating with other students" },
