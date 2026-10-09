@@ -27,8 +27,10 @@
       <nav class="desktop-nav" aria-label="Main navigation">
         <a href="#about">0000. about</a>
         <a href="#work">0001. projects</a>
-        <a href="#life">0010. life</a>
-        <a href="#contact">0011. contact</a>
+        <a href="#experience">0010. experience</a>
+        <a href="#life">0011. life</a>
+        <a href="#hidden-item">0100. hidden item</a>
+        <a href="#contact">0101. contact</a>
       </nav>
       <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
     </header>
@@ -73,7 +75,6 @@
       <section class="work shell" id="work">
         <div class="section-heading">
           <div><p class="eyebrow">0001 / projects</p><h2>Things i've<br /><em>made.</em></h2></div>
-          <p class="section-note">A little archive of websites, products, and visual experiments made with care.</p>
         </div>
         <div class="project-grid">
           <article class="project-card project-large" data-category="web">
@@ -95,10 +96,29 @@
         </div>
       </section>
 
+      <section class="experience shell" id="experience">
+        <div class="section-heading">
+          <div><p class="eyebrow">0010 / experience</p><h2>Places i've<br /><em>grown.</em></h2></div>
+        </div>
+        <div class="experience-timeline">
+          <article class="experience-card">
+            <div class="experience-date">08/2025 — present</div>
+            <div class="experience-card-body">
+              <div class="experience-card-heading"><div><h3>Society of Hispanic Professional Engineers</h3><p class="experience-role">UI/UX Director</p></div><span class="pill">SHPE</span></div>
+              <p>I design the digital experiences that help SHPE members find information, connect with the organization, and navigate its tools with less friction.</p>
+              <ul>
+                <li>Create interactive Figma prototypes, page layouts, and user flows for the SHPE website.</li>
+                <li>Collaborate with iOS and Android developers to turn designs into responsive, accessible website updates.</li>
+                <li>Helped shape a Liquid Glass-inspired redesign across the calendar, admin pages, and other interfaces by standardizing visual components, layouts, and styling.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section class="life shell" id="life">
         <div class="section-heading">
-          <div><p class="eyebrow">0010 / Life </p><h2>Life behind<br /><em>the screen.</em></h2></div>
-          <p class="section-note">A few snapshots of the people, places, and projects to show you a bit of my life behind the screen.</p>
+          <div><p class="eyebrow">0011 / Life </p><h2>Life behind<br /><em>the screen.</em></h2></div>
         </div>
         <div class="life-carousel" aria-label="Life in pictures">
           <div class="life-feature">
@@ -111,11 +131,33 @@
         </div>
       </section>
 
+      <section class="hidden-item shell" id="hidden-item">
+        <div class="section-heading">
+          <div><p class="eyebrow">0100 / Hidden item</p><h2>viannee<br /><em>run.</em> ✦</h2></div>
+        </div>
+        <div class="game-window">
+          <div class="game-window-bar"><span>viannee.run ✦</span><span>SPACE = jump</span></div>
+          <div class="game-window-body">
+            <div><p>help viannee's face bounce through a tiny pixel wonderland!</p><p class="game-subnote">Hop over spikes and little floor gaps, collect stars, and chase your high score.</p></div>
+            <button class="game-launch" type="button">press to play ♡</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="game-modal" role="dialog" aria-modal="true" aria-labelledby="game-title" hidden>
+        <div class="game-modal-card">
+          <div class="game-modal-bar"><strong id="game-title">viannee.run ✦</strong><button class="game-close" type="button" aria-label="Close game">×</button></div>
+          <div class="game-hud"><span>score <b class="game-score">0000</b></span><span>best <b class="game-best">0000</b></span></div>
+          <canvas class="game-canvas" width="760" height="300" aria-label="viannee.run game"></canvas>
+          <p class="game-help">SPACE or tap to jump · SPACE or tap after game over to restart</p>
+        </div>
+      </div>
+
     </main>
 
     <footer class="footer shell" id="contact">
-      <div><p class="eyebrow">0011 / Have a good idea?</p><h2>Let's make it<br /><em>real.</em> <span>✦</span></h2></div>
-      <div class="footer-right"><a class="email-link" href="mailto:vianneerosaarroyo@gmail.com">vianneerosaarroyo@gmail.com <span>↗</span></a><div class="socials"><a href="https://github.com/vianneej" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/vianneerosa-arroyo" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://devpost.com/vianneej?ref_content=user-portfolio&amp;ref_feature=portfolio&amp;ref_medium=global-nav" target="_blank" rel="noreferrer">Devpost</a></div><p class="copyright">© 2024 Viannee J. Rosa-Arroyo. Thanks for reading!</p></div>
+      <div><p class="eyebrow">0101 / Have a good idea?</p><h2>Let's make it<br /><em>real.</em> <span>✦</span></h2></div>
+      <div class="footer-right"><a class="email-link" href="mailto:vianneerosaarroyo@gmail.com">vianneerosaarroyo@gmail.com <span>↗</span></a><div class="socials"><a href="https://github.com/vianneej" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/vianneerosa-arroyo" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://devpost.com/vianneej?ref_content=user-portfolio&amp;ref_feature=portfolio&amp;ref_medium=global-nav" target="_blank" rel="noreferrer">Devpost</a></div><p class="copyright">© 2024 Viannee J. Rosa-Arroyo. ♡</p></div>
     </footer>
     <script src="script.js"></script>
   </body>
